@@ -46,3 +46,7 @@ Con el formato:
 - getProducts(): void - Guarda los productos obtenidos del archivo 'productos.json' en el atributo 'products' de la clase Contenedor.
 - updateId(Object[]): void - Actualiza los id del array de productos.
 - idRandom() : Number - Método encargado de buscar los datos necesarios para la obtención del id random, generarlo y retornarlo.
+
+## Glitch
+
+Ir al Glitch presionando [aquí](https://amazing-poised-amaranthus.glitch.me/).

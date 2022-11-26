@@ -96,7 +96,6 @@ app.get("/productos", async (request, response) => {
 
 app.get("/productoRandom", async (request, response) => {
   const id = await contenedor.idRandom();
-  console.log(id);
   await contenedor
     .getById(id)
     .then((value) => response.send(value))
